@@ -160,7 +160,7 @@ Specimen ClassicGeneticAlgorithm() {
         for (const auto &newSpecimen : newPopulation) {
             population.push_back(newSpecimen);
         }
-        //мутация с вероятностью 25%
+        //мутация с вероятностью 30%
         Mutation(population, gen);
         //Редукция
         Reduction(population);
